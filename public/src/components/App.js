@@ -1,9 +1,10 @@
 import React, { Component } from "react";
+import AddList from "./AddList";
 
 class App extends Component {
   render() {
     return (
-        <h1>This is a react div container !!!</h1>
+        <AddList/>
     )
   }
 }
